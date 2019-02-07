@@ -29,7 +29,7 @@ window.onload = () => {
     }
 
     function showSlidesClick(n) {
-        var i;
+        // var i;
         var slides = document.getElementsByClassName("slide");
         if (n > slides.length) {slideIndex = 1}
         if (n < 1) {slideIndex = slides.length}
@@ -37,6 +37,22 @@ window.onload = () => {
             slides[i].style.opacity = "0";
         }
         slides[slideIndex-1].style.opacity = "1";
+    }
+
+    function closePopup () {
+        let popup = document.querySelector('#popup');
+        popup.style.opacity = "0";
+        setTimeout( ()  => {
+            popup.style.display = 'none';
+        }, 200)
+    }
+
+    function openPopup() {
+        let popup = document.querySelector('#popup');
+        popup.style.display = "block";
+        setTimeout( ()  => {
+            popup.style.opacity = '1';
+        }, 50)
     }
 
     document.querySelector('#arrow-left').addEventListener('click', function (e) {
@@ -47,6 +63,13 @@ window.onload = () => {
         plusSlides(1);
     })
 
+    document.querySelector('#close').addEventListener('click', function () {
+        closePopup();
+    })
+
+    document.querySelector('#callback').addEventListener('click', function () {
+        openPopup();
+    })
 
 }
 

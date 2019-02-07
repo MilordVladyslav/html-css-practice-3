@@ -9,12 +9,23 @@
     <link rel="stylesheet" href="./css/all.css">
 </head>
 <body>
-<div class="popup">
+<div class="popup" id="popup">
     <div class="form-wraрpper">
-        <div class="close">
+        <div class="close" id="close">
             <img src="./img/close.png" alt="close">
         </div>
-        <h3>Обратная связь</h3>
+        <h3 class="feedback-title">Обратная связь</h3>
+        <form action="#">
+            <p class="input-description">Ваше имя</p>
+            <input type="text" required id="name">
+            <p class="input-description">Телефон</p>
+            <input type="number" required id="phone">
+            <p class="input-description">Email</p>
+            <input type="email" required id="email">
+            <p class="input-description">Сообщение</p>
+            <textarea name="userMessage" id="message" cols="40" rows="9"></textarea>
+            <input type="submit" class="send" value="Отправить" id="send">
+        </form>
     </div>
 </div>
     <header class="header">
@@ -23,7 +34,7 @@
             <div class="phones-callback">
                 <p class="phone">+7(499) 777-77-77</p>
                 <p class="phone">+7(499) 777-77-77</p>
-                <p class="callback">Обратная связь</p>
+                <p class="callback" id="callback">Обратная связь</p>
             </div>
 
         </div>
