@@ -1,0 +1,16 @@
+.wrapper {
+  width: 1005px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: PT_Sans;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,37 @@
+.slider {
+  background: $slider-background;
+  position: relative;
+  .wrapper {
+    position: relative;
+  }
+  height: 400px;
+  overflow: hidden;
+  .arrow {
+    position: absolute;
+    top: 155px;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .arrow-right {
+    right: 0px;
+  }
+  .slide {
+    top: -60px;
+    left: -130px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+  }
+
+  .show {
+    opacity: 1;
+    transition: opacity 0.5s linear;
+  }
+
+  .hide {
+    opacity: 0;
+    transition: opacity 0.5s linear;
+  }
+
+}
+

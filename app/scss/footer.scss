@@ -1,0 +1,42 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  .wrapper {
+    display: flex;
+  }
+  background: $dark-gray;
+  padding-top: 44px;
+  height: 220px;
+  color: white;
+  letter-spacing: 0.35px;
+  a {
+    color: white;
+  }
+  .info {
+    width: 350px;
+    a {
+      text-decoration: none;
+    }
+  }
+  .footer-navigation {
+    line-height: 1.9;
+    width: 403px;
+  }
+
+  .logo {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .footer-logo {
+    padding-top: 6px;
+    width: 220px;
+  }
+
+  .description {
+    position: relative;
+    top: -6px;
+  }
+
+}

@@ -1,0 +1,53 @@
+.content {
+  padding-top: 31px;
+  margin-bottom: 195px;
+}
+
+.topics {
+  margin-bottom: 23px;
+}
+
+.aside {
+  width: 350px;
+  background: $dark-gray;
+  color: white;
+  padding: 24px 34px;
+  padding-bottom: 95px;
+  box-sizing: border-box;
+  float: left;
+  a {
+    color: white;
+    text-decoration: navy;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .news-title {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 36px;
+  }
+  .title-topic {
+    font-style: italic;
+  }
+  .archive{
+    margin-top: 25px;
+    margin-right: 18px;
+    text-align: right;
+    float: right;
+  }
+}
+
+.content-right {
+  padding: 22px 0px 20px 411px;
+  letter-spacing: 1px;
+  color: $dark-gray;
+  .title-right {
+    font-size: 40px;
+    margin-bottom: 31px;
+  }
+  .text {
+    margin-bottom: 22px;
+  }
+}

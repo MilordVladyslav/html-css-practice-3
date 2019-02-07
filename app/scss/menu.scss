@@ -1,0 +1,38 @@
+.menu {
+  background: $dark-gray;
+  height: 80px;
+  .navigation {
+    ul {
+      text-align: center;
+      font-size: 30px;
+      letter-spacing: 0.75px;
+      padding-top: 25px;
+
+      li {
+        display: inline;
+        a {
+          color: white;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      li:after {
+        content: '|';
+        padding-left: 21px;
+        color: white;
+      }
+      li:last-child {
+        &:after {
+          content: '';
+        }
+
+      }
+    }
+  }
+}
+
+li:last-child:after {
+  content: '';
+}
