@@ -1,0 +1,14 @@
+.company-description {
+  width: 805px;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 440px;
+  .description-content {
+    line-height: 22px;
+    width: 395px;
+    letter-spacing: 0.35px;
+    color: $dark-gray;
+  }
+}

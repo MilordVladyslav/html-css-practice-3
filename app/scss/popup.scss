@@ -3,9 +3,10 @@
   width: 100vw;
   height: 100vh;
   z-index: 3;
-  opacity: 1;
   transition: opacity 0.2s linear;
   background-color: rgba(0,0,0,0.5);
+  opacity: 0;
+  display: none;
   .form-wraрpper {
     width: 464px;
     height: 578px;

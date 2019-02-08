@@ -1,13 +1,15 @@
 .footer {
-  position: relative;
+  position: absolute;
+  width: 100%;
   bottom: 0;
   left: 0;
+  margin-top: 210px;
   .wrapper {
     display: flex;
   }
   background: $dark-gray;
   padding-top: 44px;
-  height: 220px;
+  height: 176px;
   color: white;
   letter-spacing: 0.35px;
   a {
