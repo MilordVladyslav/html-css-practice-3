@@ -3,15 +3,26 @@
   width: 100vw;
   height: 100vh;
   z-index: 3;
-  transition: opacity 0.2s linear;
-  background-color: rgba(0,0,0,0.5);
   opacity: 0;
   display: none;
+  transition: opacity 0.2s linear;
+  background-color: rgba(0,0,0,0.5);
+  .popup-mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    transition: opacity 0.2s linear;
+    background-color: rgba(0,0,0,0.5);
+  }
   .form-wraрpper {
     width: 464px;
     height: 578px;
     background-color: white;
     margin: 8vh auto;
+    z-index: 4;
     position: relative;
     .close {
       position: absolute;

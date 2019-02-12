@@ -83,9 +83,9 @@ window.onload = () => {
         closePopup();
     })
 
-    // document.querySelector('#popup').addEventListener('click', function () {
-    //     closePopup();
-    // })
+    document.querySelector('#popup-mask').addEventListener('click', function () {
+        closePopup();
+    })
 
     document.querySelector('#callback').addEventListener('click', function () {
         openPopup();
