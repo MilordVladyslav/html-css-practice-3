@@ -56,6 +56,9 @@
         &:active {
           text-decoration: underline;
         }
+        &:hover {
+          text-decoration: underline;
+        }
       }
 
       .category-navigation {
@@ -76,6 +79,10 @@
             text-decoration: underline;
           }
 
+          a:hover {
+            text-decoration: underline;
+          }
+
         }
 
 
@@ -91,7 +98,7 @@
 
   .right-block {
     padding-top: 4px;
-    float: left;
+    float: right;
     margin-left: 20px;
     width: 781px;
     padding-bottom: 50px;

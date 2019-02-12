@@ -1,11 +1,14 @@
 .wrapper {
-  width: 1005px;
+  width: 1000px;
   margin: 0 auto;
-
+  padding: 0px 10px 10px;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-  font-family: PT_Sans;
+  font-family: PT Sans;
   font-size: 14px;
   line-height: 22px;
   position: relative;
@@ -15,4 +18,12 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+
+
+
+.main-wrapper {
+  position: relative;
+  min-height: 100%;
 }

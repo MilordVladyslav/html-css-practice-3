@@ -48,11 +48,11 @@ return gulp.src([
 
 gulp.task('browser-sync', function () {
 browserSync({
-    server: {
-        baseDir: 'app',
-        notify: false
-    }
-})
+        server: {
+            baseDir: 'app',
+            notify: false
+        }
+    })
 })
 
 gulp.task('clean', function () {

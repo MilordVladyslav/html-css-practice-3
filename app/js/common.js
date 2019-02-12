@@ -2,18 +2,31 @@ window.onload = () => {
     'use srtict'
 
     var slideIndex = 0;
+    var cleartime = true;
     showSlides();
 
     function showSlides() {
-        // var i;
-        var slides = document.getElementsByClassName("slide");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.opacity= "0";
+        if(cleartime) {
+            var slides = document.getElementsByClassName("slide");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.opacity = "0";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.opacity = "1";
+            if (cleartime) {
+                setTimeout(showSlides, 4000);
+            }
+        } else {
+            cleartime = true;
+            setTimeout( () =>  {
+                showSlides();
+            }, 4000)
+
         }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}
-        slides[slideIndex-1].style.opacity = "1";
-        setTimeout(showSlides, 4000);
+
     }
 
 
@@ -57,15 +70,22 @@ window.onload = () => {
 
     document.querySelector('#arrow-left').addEventListener('click', function (e) {
         plusSlides(-1);
+        cleartime = false;
     })
 
     document.querySelector('#arrow-right').addEventListener('click', function (e) {
         plusSlides(1);
+        cleartime = false;
+
     })
 
     document.querySelector('#close').addEventListener('click', function () {
         closePopup();
     })
+
+    // document.querySelector('#popup').addEventListener('click', function () {
+    //     closePopup();
+    // })
 
     document.querySelector('#callback').addEventListener('click', function () {
         openPopup();

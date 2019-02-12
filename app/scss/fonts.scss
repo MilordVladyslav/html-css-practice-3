@@ -1,9 +1,19 @@
-@font-face {
-  font-family: OpenSansCondensed;
-  src: url("../fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf");
-}
+//@font-face {
+//  font-family: OpenSansCondensed;
+//  src: url("../fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf");
+//}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 @font-face {
-  font-family: PT_Sans;
-  src: url("../fonts/PT_Sans/PT_Sans-Web-Regular.ttf");
+  font-family: OpenSansCondensed;
+  src: url('../fonts/Open_Sans_Condenced/OpenSans-CondLight-webfont.eot');
+  src: url('../fonts/Open_Sans_Condenced/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+
+  url('../fonts/Open_Sans_Condenced/OpenSans-CondLight-webfont.woff') format('woff'),
+  url('../fonts/Open_Sans_Condenced/OpenSans-CondLight-webfont.ttf') format('truetype'),
+  url('../fonts/OpenSans-CondLight-webfont.svg#open_sanscondensed_light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
 }
