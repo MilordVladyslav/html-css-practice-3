@@ -331,7 +331,12 @@ li:last-child:after {
       text-decoration: none; }
   .footer .footer-navigation {
     line-height: 1.9;
-    width: 403px; }
+    width: 403px;
+    overflow-y: auto;
+    height: 176px;
+    padding-bottom: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
   .footer .logo {
     float: left;
     margin-right: 10px; }

@@ -1,13 +1,15 @@
 .menu {
   background: $dark-gray;
-  height: 80px;
+  min-height: 80px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
   .navigation {
     ul {
       text-align: center;
       font-size: 30px;
       letter-spacing: 0.75px;
       padding-top: 25px;
-
+      line-height: 30px;
       li {
         display: inline;
         a {

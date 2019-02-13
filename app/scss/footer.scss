@@ -24,6 +24,10 @@
   .footer-navigation {
     line-height: 1.9;
     width: 403px;
+    overflow-y: auto;
+    height: 176px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
   }
 
   .logo {
