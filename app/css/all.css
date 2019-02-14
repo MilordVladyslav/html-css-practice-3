@@ -38,12 +38,16 @@
 
 .menu {
   background: #767676;
-  height: 80px; }
+  min-height: 80px;
+  padding-bottom: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   .menu .navigation ul {
     text-align: center;
     font-size: 30px;
     letter-spacing: 0.75px;
-    padding-top: 25px; }
+    padding-top: 25px;
+    line-height: 30px; }
     .menu .navigation ul li {
       display: inline; }
       .menu .navigation ul li a {
@@ -150,13 +154,14 @@ li:last-child:after {
           display: inline-block;
           color: #767676;
           width: 1em; }
+        .content .left-block .products-navigation .category-navigation li a {
+          color: #767676;
+          text-decoration: none; }
         .content .left-block .products-navigation .category-navigation li a:active {
           text-decoration: underline; }
         .content .left-block .products-navigation .category-navigation li a:hover {
-          text-decoration: underline; }
-      .content .left-block .products-navigation .category-navigation a {
-        color: black;
-        text-decoration: none; }
+          text-decoration: underline;
+          color: black; }
 
 .content .right-block {
   padding-top: 4px;
@@ -315,7 +320,7 @@ li:last-child:after {
   margin-top: 210px;
   background: #767676;
   padding-top: 44px;
-  height: 176px;
+  height: 186px;
   color: white;
   letter-spacing: 0.35px; }
   .footer .wrapper {
