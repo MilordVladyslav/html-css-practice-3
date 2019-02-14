@@ -3,3 +3,189 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .wrapper {
+      .left-block {
+        .price-list {
+          margin-top: 12px;
+        }
+      }
+    }
+
+  .wrapper {
+    max-width: 100%;
+  }
+
+  .content {
+    .right-block {
+      padding-top: 30px;
+      margin: auto;
+      float: none;
+      clear: both;
+      width: 780px;
+    }
+  }
+
+  .company-description {
+    width: 100%;
+    display: block;
+    float: none;
+    margin-bottom: 330px;
+    .description-content {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+
+  .title-right {
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    max-width: 100%;
+    .left-block {
+      .price-list {
+        margin-top: 12px;
+      }
+    }
+  }
+
+  .header {
+    padding-top: 20px;
+    height: 136px;
+
+    .phones-callback {
+      margin-top: 0;
+    }
+
+    .logo {
+      margin-top: 0;
+      width: 35%;
+      height: auto;
+    }
+    .phone {
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 25px;
+    }
+  }
+  .company-description {
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+    .description-content {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  .menu {
+    padding-top: 14px;
+    padding-bottom: 9px;
+    .navigation {
+      ul {
+        font-size: 20px;
+        padding-top: 9px;
+      }
+    }
+  }
+  .content {
+    .right-block {
+      clear: both;
+      padding: 0;
+      padding-top: 30px;
+    }
+  }
+
+  .footer {
+    position: static;
+    height: auto;
+    padding-bottom: 20px;
+    .wrapper {
+      display: block;
+    }
+    .footer-navigation, .footer-logo {
+      padding-left: 10px;
+    }
+    .footer-navigation {
+      height: auto;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 819px) {
+
+  .content {
+    .wrapper {
+      .right-block {
+        width: 520px;
+        margin: auto;
+        clear: both;
+        margin-top: 150px;
+        float: none;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .header {
+    height: 260px;
+    .logo {
+      min-width: 280px;
+      margin-bottom: 20px;
+    }
+    .phones-callback {
+      float: left;
+      clear: both;
+
+    }
+  }
+
+  .aside {
+    .news-title {
+      font-size: 30px;
+    }
+  }
+
+  .info, .footer-navigation, .footer-logo {
+    max-width: 100%;
+    padding-left: 10px;
+  }
+
+  .footer {
+    padding-bottom: 40px;
+  }
+
+}
+
+@media screen and (max-width: 534px) {
+  .content {
+    .right-block {
+      max-width: 100%;
+      .product {
+        width: 100%;
+        height: auto;
+        img {
+          display: block;
+          margin: auto;
+        }
+        .description {
+          margin-bottom: 35px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+//outline: 1px solid black;
+//width: 67%;
+//         margin: auto;
+//clear: both;
+//margin-top: 150px;
+//float: none;
