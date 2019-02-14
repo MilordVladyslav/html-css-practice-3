@@ -23,8 +23,7 @@
     font-weight: bold;
     font-size: 24px;
     letter-spacing: 0.6px;
-    text-decoration: underline;
-    text-decoration-style: dotted;
+    border-bottom: 2px dashed $dark-gray;
     float: right;
     cursor: pointer;
   }

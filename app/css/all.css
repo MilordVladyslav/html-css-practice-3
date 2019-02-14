@@ -30,9 +30,7 @@
     font-weight: bold;
     font-size: 24px;
     letter-spacing: 0.6px;
-    text-decoration: underline;
-    -webkit-text-decoration-style: dotted;
-            text-decoration-style: dotted;
+    border-bottom: 2px dashed #767676;
     float: right;
     cursor: pointer; }
 
