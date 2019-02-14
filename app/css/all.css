@@ -378,7 +378,7 @@ body {
   .slider {
     display: none; } }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 1000px) {
   .wrapper .left-block .price-list {
     margin-top: 12px; }
   .wrapper {
@@ -389,6 +389,10 @@ body {
     float: none;
     clear: both;
     width: 780px; }
+  .footer .info {
+    width: 259px; }
+  .footer .footer-navigation {
+    width: 245px; }
   .company-description {
     width: 100%;
     display: block;
@@ -438,6 +442,7 @@ body {
   .footer {
     position: static;
     height: auto;
+    margin-top: 50px;
     padding-bottom: 20px; }
     .footer .wrapper {
       display: block; }
@@ -456,6 +461,18 @@ body {
     float: none; } }
 
 @media screen and (max-width: 600px) {
+  .popup {
+    display: block;
+    opacity: 1; }
+    .popup .form-wraрpper {
+      width: 100%;
+      margin: 0vh auto; }
+      .popup .form-wraрpper .close {
+        right: 0;
+        top: 0;
+        width: 60px;
+        height: 60px;
+        padding: 22px; }
   .header {
     height: 260px; }
     .header .logo {

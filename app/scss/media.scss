@@ -4,7 +4,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 1000px) {
     .wrapper {
       .left-block {
         .price-list {
@@ -26,6 +26,16 @@
       width: 780px;
     }
   }
+
+  .footer {
+    .info {
+      width: 259px;
+    }
+    .footer-navigation {
+      width: 245px;
+    }
+  }
+
 
   .company-description {
     width: 100%;
@@ -102,6 +112,7 @@
   .footer {
     position: static;
     height: auto;
+    margin-top: 50px;
     padding-bottom: 20px;
     .wrapper {
       display: block;
@@ -133,6 +144,21 @@
 
 
 @media screen and (max-width: 600px) {
+  .popup {
+    display: block;
+    opacity: 1;
+    .form-wraрpper {
+      width: 100%;
+      margin: 0vh auto;
+      .close {
+        right: 0;
+        top: 0;
+        width: 60px;
+        height: 60px;
+        padding: 22px;
+      }
+    }
+  }
   .header {
     height: 260px;
     .logo {
