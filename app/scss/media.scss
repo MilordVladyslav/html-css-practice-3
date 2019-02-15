@@ -145,8 +145,7 @@
 
 @media screen and (max-width: 600px) {
   .popup {
-    display: block;
-    opacity: 1;
+
     .form-wraрpper {
       width: 100%;
       margin: 0vh auto;
@@ -156,6 +155,11 @@
         width: 60px;
         height: 60px;
         padding: 22px;
+      }
+      
+      #message {
+        height: 80px;
+        overflow-y: auto;
       }
     }
   }

@@ -461,18 +461,18 @@ body {
     float: none; } }
 
 @media screen and (max-width: 600px) {
-  .popup {
-    display: block;
-    opacity: 1; }
-    .popup .form-wraрpper {
-      width: 100%;
-      margin: 0vh auto; }
-      .popup .form-wraрpper .close {
-        right: 0;
-        top: 0;
-        width: 60px;
-        height: 60px;
-        padding: 22px; }
+  .popup .form-wraрpper {
+    width: 100%;
+    margin: 0vh auto; }
+    .popup .form-wraрpper .close {
+      right: 0;
+      top: 0;
+      width: 60px;
+      height: 60px;
+      padding: 22px; }
+    .popup .form-wraрpper #message {
+      height: 80px;
+      overflow-y: auto; }
   .header {
     height: 260px; }
     .header .logo {
